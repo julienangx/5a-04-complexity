@@ -1,0 +1,25 @@
+{
+  "name": "5a-04-complexity",
+  "version": "1.0.0",
+  "description": "# Examen - Complexité Algorithmique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienangx/5a-04-complexity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julienangx/5a-04-complexity/issues"
+  },
+  "homepage": "https://github.com/julienangx/5a-04-complexity#readme",
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

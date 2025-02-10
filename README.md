@@ -1,4 +1,12 @@
 # Julien ANGENIEUX - A1
+# Executer l'exercice 1 : 
+```bash
+npx ts-node -P tsconfig.json exercice1.ts
+```
+# Executer l'exercice 2 : 
+```bash
+npx ts-node -P tsconfig.json exercice2.ts
+```
 
 # Examen - Complexité Algorithmique
 
