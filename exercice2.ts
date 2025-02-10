@@ -26,7 +26,7 @@ function containsDuplicateOptimized(array: any[]) {
 //Création de la liste de nombres aléatoires
 const listeDeNombres = [];
 for (let i = 0; i < 100000; i++) {
-    listeDeNombres.push(Math.floor(Math.random() * 100000));
+    listeDeNombres.push(Math.floor(Math.random() * 10000));
 }
 //Ajout d'un nombre en double à la fin de la liste (pire cas)
 listeDeNombres.push(listeDeNombres[0]);
@@ -63,13 +63,13 @@ function findCommonElementsOptimized(array1: any[], array2: any[]) {
 
 //Création de la liste de nombres aléatoires
 const listeDeNombres2 = [];
-for (let i = 0; i < 100000; i++) {
-    listeDeNombres2.push(Math.floor(Math.random() * 10000000));
+for (let i = 0; i < 10000; i++) {
+    listeDeNombres2.push(Math.floor(Math.random() * 1000000));
 }
 
 const listeDeNombres3 = [];
-for (let i = 0; i < 100000; i++) {
-    listeDeNombres3.push(Math.floor(Math.random() * 10000000));
+for (let i = 0; i < 10000; i++) {
+    listeDeNombres3.push(Math.floor(Math.random() * 1000000));
 }
 
 //Fonction fibonacci --------------------------------
@@ -191,6 +191,6 @@ testSuite2.displayResults();
 const testSuite3 = new PerformanceTestSuite("Fibonacci");
 testSuite3.addAlgorithm("Version basique", fibonacci);
 testSuite3.addAlgorithm("Version optimisée", fibonacciOptimized);
-testSuite3.setNumberOfRuns(1000);
-testSuite3.runTests(10);
+testSuite3.setNumberOfRuns(100);
+testSuite3.runTests(15);
 testSuite3.displayResults();
